@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 jobs:
   Explore-GitHub-Actions:
-    runs-on: poc-runner-scale-set-1
+    runs-on: test-runner-scale-set-1
     container:
       image: node:18
     steps:
