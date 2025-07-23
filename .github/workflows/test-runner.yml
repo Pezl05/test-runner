@@ -5,6 +5,6 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: test-runner-scale-set-1
     container:
-      image: node:18
+      image: node:18-slim
     steps:
     - run: echo "🎉 This job uses runner scale set runners!"
